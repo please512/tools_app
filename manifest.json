@@ -1,0 +1,109 @@
+{
+    "name" : "生活小助手",
+    "short_name" : "some-tool-app-develop",
+    "theme_color" : "#4DBA87",
+    "icons" : {
+        "src" : "./img/icons/android-chrome-512x512.png",
+        "sizes" : "512x512",
+        "type" : "image/png"
+    },
+    "start_url" : ".",
+    "display" : "standalone",
+    "background_color" : "#000000",
+    "id" : "H5EB962EE",
+    "version" : {
+        "name" : "0.0.1"
+    },
+    "launch_path" : "index.html",
+    "description" : "生活小帮手，万能小工具",
+    "screenOrientation" : [ "portrait-primary" ],
+    "plus" : {
+        "statusbar" : {
+            //应用可视区域到系统状态栏下透明显示效果
+            "immersed" : true
+        },
+        "distribute" : {
+            "icons" : {
+                "android" : {
+                    "hdpi" : "unpackage/res/icons/72x72.png",
+                    "xhdpi" : "unpackage/res/icons/96x96.png",
+                    "xxxhdpi" : "unpackage/res/icons/192x192.png",
+                    "xxhdpi" : "unpackage/res/icons/144x144.png"
+                },
+                "ios" : {
+                    "appstore" : "unpackage/res/icons/1024x1024.png",
+                    "ipad" : {
+                        "app" : "unpackage/res/icons/76x76.png",
+                        "app@2x" : "unpackage/res/icons/152x152.png",
+                        "notification" : "unpackage/res/icons/20x20.png",
+                        "notification@2x" : "unpackage/res/icons/40x40.png",
+                        "proapp@2x" : "unpackage/res/icons/167x167.png",
+                        "settings" : "unpackage/res/icons/29x29.png",
+                        "settings@2x" : "unpackage/res/icons/58x58.png",
+                        "spotlight" : "unpackage/res/icons/40x40.png",
+                        "spotlight@2x" : "unpackage/res/icons/80x80.png"
+                    },
+                    "iphone" : {
+                        "app@2x" : "unpackage/res/icons/120x120.png",
+                        "app@3x" : "unpackage/res/icons/180x180.png",
+                        "notification@2x" : "unpackage/res/icons/40x40.png",
+                        "notification@3x" : "unpackage/res/icons/60x60.png",
+                        "settings@2x" : "unpackage/res/icons/58x58.png",
+                        "settings@3x" : "unpackage/res/icons/87x87.png",
+                        "spotlight@2x" : "unpackage/res/icons/80x80.png",
+                        "spotlight@3x" : "unpackage/res/icons/120x120.png"
+                    }
+                }
+            },
+            "splashscreen" : {
+                "androidStyle" : "default",
+                "android" : {
+                    "hdpi" : "C:/Users/ASUS/Desktop/mine.png",
+                    "xhdpi" : "C:/Users/ASUS/Desktop/mine.png",
+                    "xxhdpi" : "C:/Users/ASUS/Desktop/mine.png"
+                }
+            },
+            "google" : {
+                "permissions" : []
+            },
+            "plugins" : {
+                "geolocation" : {
+                    "amap" : {
+                        "__platform__" : [ "android" ],
+                        "appkey_ios" : "",
+                        "appkey_android" : ""
+                    }
+                },
+                "maps" : {
+                    "amap" : {
+                        "appkey_ios" : "",
+                        "appkey_android" : "8eee6cb04a535a8c26ef3e8f51483255"
+                    }
+                },
+                "push" : {
+                    "unipush" : {}
+                },
+                "share" : {},
+                "speech" : {
+                    "baidu" : {
+                        "appid" : "",
+                        "apikey" : "",
+                        "secretkey" : ""
+                    }
+                },
+                "ad" : {}
+            },
+            "apple" : {
+                "idfa" : false
+            }
+        },
+        "splashscreen" : {
+            "waiting" : false,
+            "delay" : 1500
+        }
+    },
+    "permissions" : {
+        "VideoPlayer" : {}
+    },
+    "fullscreen" : false
+}
